@@ -3,14 +3,16 @@
 Created from an [article](https://codewithmukesh.com/blog/user-management-in-aspnet-core-mvc/)
 discussing custom user management in ASP.NET Core MVC with Identity. The project includes several of the features we have come to expect when setting up profile pages on social media.  
 
+>Note: This project is only intended for a local environment as the primary purpose was to learn more about ASP.NET Core with Identity.
+
 ## Features
 1. Authentication for Register/Login/Logout.
 2. Ability to login via username or email.
 2. Profile picture option.
 3. Authorization based on dynamic role assignment for users.
-5. Default user loaded on start. 
+5. Default admin info loaded on start. 
 
-## Default User Info
+## Default Admin Info
 *username:* test  
 *email:* test@tester.com   
 *password:* 123Pa$$word
