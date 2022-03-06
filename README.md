@@ -5,6 +5,11 @@ discussing custom user management in ASP.NET Core MVC with Identity. The project
 
 >Note: This project is only intended for a local environment as the primary purpose was to learn more about ASP.NET Core with Identity.
 
+## Get Started
+1. Clone this repo.
+2. Open the BugTrackerv4.sln file.
+3. Run the application  using IIS Express.
+
 ## Features
 1. Authentication for Register/Login/Logout.
 2. Ability to login via username or email.
