@@ -4,13 +4,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="nav-item">
-    <a class="nav-link text-dark" asp-area="" asp-controller="RoleManager" asp-action="Index">Edit Roles</a>
-</div>
 <form method="post">
     <div class="card">
         <div class="card-header">
             <h2>Manage User Roles</h2>
+            <div class="nav-item">
+                <a class="btn btn-dark" asp-area="" asp-controller="RoleManager" asp-action="Index">Edit Roles</a>
+            </div>
             Add/Remove Roles for User: @ViewBag.UserName.
         </div>
         <div class="card-body">
@@ -29,9 +29,10 @@
                 <div asp-validation-summary="All" class="text-danger"></div>
             </div>
             <div class="card-footer">
-                <input type="submit" value="Update" class="btn btn-primary"
+            <input type="submit" value="Update" class="btn btn-primary"
                        style="width:auto" />
             </div>
+            
         </div>
     </div>
 </form>
